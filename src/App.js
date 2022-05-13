@@ -1,12 +1,16 @@
-import logo from './logo.svg';
+import { Provider } from 'react-redux';
 import './App.css';
 import Header from './pages/Header.js';
-import MyComponent from './pages/Map.js';
+import { store } from './actions/redux/configureStore';
+
 
 function App() {
   return (
-    // <Header/>
-    <Header/>
+    <Provider store={store}>
+      <Header/>
+    </Provider>
+
+    // <Content/>
     )
 }
 
