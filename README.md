@@ -7,4 +7,5 @@
   <li>Google Map Api</li>
   <li>Javascript</li>
   <li>Fetch</li>
+  <li>Redux</li>
 </ul>
