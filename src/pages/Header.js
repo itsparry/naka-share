@@ -7,7 +7,7 @@ import Content from './Content';
 function Header() {
 
   return (
-    <div className='container'>
+    <div className='container-cus'>
       <div className='header-container'>
         <img src={logo} alt='naka' className='logo'/>
         <h1>
